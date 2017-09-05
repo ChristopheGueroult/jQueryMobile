@@ -32,3 +32,9 @@
   }
 }
 ```
+- Terminal > lancer la commande : npm install -g lite-server pour installer lite-server en global.
+- Terminal > placez vous sur votre projet : cd chemin/nom_du_projet
+- Terminal > lancer la commande : npm install lite-server --save-dev (création automatique du dossier node_modules et installation des dépendences)
+- Terminal > lancer la commande : npm run dev (ouvre un localhost dans le navigateur)
+
+
