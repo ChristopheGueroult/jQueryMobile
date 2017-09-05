@@ -22,12 +22,12 @@
 
 - Documentation : [https://www.npmjs.com/package/lite-server](https://www.npmjs.com/package/lite-server)
 - Créer un fichier package.json à la racine de votre projet
-        * {
-          "scripts": {
-            "dev": "lite-server"
-          },
-          "devDependencies": {
-            "lite-server": "^2.3.0"
-          }
-        }
-        
+    {
+      "scripts": {
+        "dev": "lite-server"
+      },
+      "devDependencies": {
+        "lite-server": "^2.3.0"
+      }
+    }
+
