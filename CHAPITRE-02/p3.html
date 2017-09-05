@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Travailler avec plusieurs fichiers</title>
+	<meta name="description" content="Plusieurs fichiers par page">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	
+	<!-- homePage -->
+	<div data-role="page" id="homePage">
+
+		<div data-role="header">
+			<h1>Bienvenue</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<p>Bienvenue sur votre premier site pour mobiles.</p>
+			<p>Cette web app implémente désormais jQuery et jQuery mobile depuis le CDN jQuery</p>
+			<p><a href="#aboutPage">A propos de cette formation</a></p>
+			<p><a href="programme.html">Programme de la formation</a>.</p>
+		</div>
+		
+		<div data-role="footer">
+			<h4>Auteur: Christophe GUEROULT</h4>
+		</div>
+	
+	</div>
+
+	<!-- aboutPage -->
+	<div data-role="page" id="aboutPage">
+
+		<div data-role="header">
+			<h1>A propos</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<p>Formation jQuery Mobile.</p>
+			<p>Cette formation reprend la version 1.4.5 de jQuery Mobile.</p>
+			<p><a href="#homePage">Retour à la page d'accueil</a></p>
+		</div>
+		
+		<div data-role="footer">
+			<h4>Auteur: Christophe GUEROULT</h4>
+		</div>
+	
+	</div>
+
+</body>
+</html>
