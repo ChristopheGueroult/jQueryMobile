@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Une navbar dans le header ou dans le footer</title>
+	<meta name="description" content="navbar avec onglet actif dans header ou footer">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	
+	<!-- homePage -->
+	<div data-role="page" id="homePage">
+
+		<div data-role="header" data-position="fixed"  data-fullscreen="true">
+    		<h1>Accueil</h1>
+    		<div data-role="navbar">
+				<ul>
+					<li><a href="#homePage" class="ui-btn-active">Accueil</a></li>
+					<li><a href="#aboutPage">A propos</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div role="main" class="ui-content">
+		    <img src="images/ville.jpg" style="width: 100%">
+		</div>
+
+		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#homePage" class="ui-btn-active">Accueil</a></li>
+					<li><a href="#aboutPage">A propos</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- aboutPage -->
+	<div data-role="page" id="aboutPage">
+
+		<div data-role="header" data-position="fixed">
+    		<h1>A propos</h1>
+    		<div data-role="navbar">
+				<ul>
+					<li><a href="#homePage">Accueil</a></li>
+					<li><a href="#aboutPage" class="ui-btn-active">A propos</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div role="main" class="ui-content">
+		    <img src="images/ville.jpg" style="width: 100%">
+		</div>
+
+		<div data-role="footer" class="ui-bar" data-position="fixed" data-fullscreen="true">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#homePage">Accueil</a></li>
+					<li><a href="#aboutPage" class="ui-btn-active">A propos</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

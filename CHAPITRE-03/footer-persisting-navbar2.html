@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Une navbar dans le header ou dans le footer</title>
+	<meta name="description" content="navbar avec onglet actif dans header ou footer">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	
+	<div data-role="page">
+
+		<div data-role="header" data-position="fixed">
+    		<h1>A propos</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+		    <p>Contenu de la page à propos</p>
+		</div>
+
+		<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="a">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="footer-persisting-navbar.html">Accueil</a></li>
+					<li><a href="footer-persisting-navbar2.html" class="ui-btn-active ui-state-persist">A propos</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

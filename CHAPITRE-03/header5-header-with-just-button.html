@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Ajouter des boutons dans un header vide</title>
+	<meta name="description" content="Un header de la hauteur des boutons">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	
+	<!-- homePage -->
+	<div data-role="page" id="homePage">
+
+		<div data-role="header">
+    		<h1>Accueil</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+		    <p><a href="#aboutPage">A propos</a></p>
+		</div>
+
+	</div>
+
+	<!-- aboutPage -->
+	<div data-role="page" id="aboutPage">
+
+		<div data-role="header" data-add-back-btn="true" data-back-btn-text="retour" data-title="Une page avec un header vide">
+    		<span class="ui-title"></span>
+		</div>
+
+		<div role="main" class="ui-content">
+		    <p><a href="" data-rel="back">Page précédente</a></p>
+		</div>
+
+	</div>
+
+	
+
+</body>
+</html>
