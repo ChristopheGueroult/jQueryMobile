@@ -34,4 +34,8 @@
 - Terminal > lancer la commande : **npm install lite-server --save-dev** (création automatique du dossier node_modules et installation des dépendences)
 - Terminal > lancer la commande : **npm run dev** (ouvre un localhost dans le navigateur)
 
+### C'est parti !
+
+Direction le Wiki pour suivre cette formation : [Wiki formation](https://github.com/ChristopheGueroult/jQueryMobile/wiki)
+
 
