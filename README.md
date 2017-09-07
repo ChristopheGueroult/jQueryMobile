@@ -38,4 +38,8 @@
 
 Direction le Wiki pour suivre cette formation : [Wiki formation](https://github.com/ChristopheGueroult/jQueryMobile/wiki)
 
+Au terme de cette formation, vos retours, appréciations, pull request seront les bienvenues et m'aideront à améliorer cette formation dédiée au frameword jQuery Mobile.
 
+En vous souhaitant une bonne formation,
+
+Christophe ;-)
