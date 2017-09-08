@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Restaurant Julien menu du jour</title>
+	<meta name="description" content="Restaurant Julien, entrées, plats et desserts du jour">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+	<style type="text/css">
+		.ui-listview>.ui-li-has-thumb>.ui-btn, .ui-listview>.ui-li-static.ui-li-has-thumb {
+			padding-left: 5em;
+		}
+	</style>
+</head>
+<body class="home">
+	
+	<div data-role="page" id="homePage">
+
+		<div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="retour">
+    		<h1>Restaurant Julien</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<div class="textHome">
+				<h2>Menu du jour</h2> 
+				<p>Aujourd'hui le chef vous propose :</p>
+			</div>
+			<ul data-role="listview" data-inset="true">
+			    <li data-role="list-divider">
+			    	<h2>Entrées du jour</h2>
+			    </li>
+			    
+			    <li>
+			    	<a href="melon-jambon.html">
+			    		<img src="images/melon-jambon-small.jpg">
+			    		<h6>Melon aux jambon</h6>
+			    		<p>Sur lit de salade verte</p>
+			    	</a>
+			    </li>
+			    <li>
+			    	<a href="tomates-mozzarella.html">
+			    		<img src="images/tomates-mozzarella-small.jpg">
+			    		<h6>Tomates mozzarella</h6>
+			    		<p>Vinaigrette au basilic</p>
+			    	</a>
+			    </li>
+			    <li>
+			    	<a href="moules-farcies.html">
+			    		<img src="images/moules-farcies-small.jpg">
+			    		<h6>Moules farcies</h6>
+			    		<p>Mesclun de jeunes pousses</p>
+			    	</a>
+			    </li>
+			    
+			    <li data-role="list-divider">
+			    	<h2>Plats du jour</h2>
+			    </li>
+
+			    <li>
+			    	<a href="filet-mignon.html">
+			    		<img src="images/filet-mignon-small.jpg">
+			    		<h6>Filet mignon de porc</h6>
+			    		<p>Sauce caramel et poêlée de légumes</p>
+			    	</a>
+			    </li>
+			    <li>
+			    	<a href="pave-rumsteak.html">
+			    		<img src="images/pave-rumsteak-small.jpg">
+			    		<h6>Pavé de Rumsteak</h6>
+			    		<p>Sauce poivre et frites maison</p>
+			    	</a>
+			    </li>
+			    <li>
+			    	<a href="pave-saumon.html">
+			    		<img src="images/pave-saumon-small.jpg">
+			    		<h6>Pavé de saumon</h6>
+			    		<p>Sauce au pesto et fondue de légumes</p>
+			    	</a>
+			    </li>
+
+			    <li data-role="list-divider">
+			    	<h2>Desserts du jour</h2>
+			    </li>
+
+			    <li>
+			    	<a href="tarte-tatin.html">
+			    		<img src="images/tarte-tatin-small.jpg">
+			    		<h6>Tarte tatin</h6>
+			    		<p>Et boule de glace vanille</p>
+			    	</a>
+			    </li>
+			    <li>
+			    	<a href="fraisier.html">
+			    		<img src="images/fraisier-small.jpg">
+			    		<h6>Fraisier</h6>
+			    		<p>Au coulis de fruits rouges</p>
+			    	</a>
+			    </li>
+			    <li>
+			    	<a href="tiramisu-fraise.html">
+			    		<img src="images/tiramisu-fraise-small.jpg">
+			    		<h6>Tiramisu à la fraise</h6>
+			    		<p>Arômatisé au kirch</p>
+			    	</a>
+			    </li>
+			</ul>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<h4>© restaurant Julien 2017</h4>
+		</div>
+
+	</div>	
+</body>
+</html>

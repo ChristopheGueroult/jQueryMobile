@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Trouver le restaurant Julien</title>
+	<meta name="description" content="Restaurant Julien Paris 16, comment nous trouver">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>	
+	<style>
+       #map {
+        height: 300px;
+        width: 100%;
+       }
+    </style>
+</head>
+<body class="home">
+	
+	<div data-role="page" id="gmapPage">
+
+		<div data-role="header" data-position="fixed">
+    		<h1>Nous trouver</h1>
+    		<a href="index.html" data-rel="back">Retour</a>
+		</div>
+
+		<div role="main" class="ui-content">
+			<div class="textHome">
+				<h2>Restaurant Julien</h2> 
+				<p>104, Boulevard Jourdan</p>
+				<p>75014</p>
+				<p>Paris</p>
+			</div>
+			<div id="map"></div>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<h4>© restaurant Julien 2017</h4>
+		</div>
+
+	</div>
+
+	<script>
+      function initMap() {
+        var paris = {lat: 48.8232469, lng: 2.3265347999999904};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: paris
+        });
+        var marker = new google.maps.Marker({
+          position: paris,
+          map: map
+        });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrydlsW6MHXJshTzlDl46QIoJSW2CjJ3k&callback=initMap">
+    </script>
+
+</body>
+</html>

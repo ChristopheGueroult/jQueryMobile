@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Restaurant Julien Paris</title>
+	<meta name="description" content="Restaurant Julien, restaurant à Paris 16">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body class="home">
+	
+	<div data-role="page">
+
+		<div data-role="header" data-position="fixed">
+    		<h1>Restaurant Julien</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<div class="textHome">
+				<h2>Bienvenue au restaurant Julien</h2> 
+				<p>Le restaurant est ouvert tous les jours même les jours fériés.</p>
+			</div>
+			
+		    <ul data-role="listview" data-inset="true">
+				<li><a data-ajax="false" data-prefetch="true" href="findus.html">Nous trouver</a></li>
+				<li><a href="daymenu.html">Menu du jour</a></li>
+				<li><a href="contact.html">Nous contacter</a></li>
+				<li><a href="#">Site version complète</a></li>
+			</ul>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<h4>© restaurant Julien 2017</h4>
+		</div>
+
+	</div>	
+</body>
+</html>
