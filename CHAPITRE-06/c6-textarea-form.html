@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulaire avec Textarea </title>
+	<meta name="description" content="Un formulaire jQuery Mobile avec textarea. ">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body class="home">
+	
+	<div data-role="page">
+
+		<div data-role="header" data-position="fixed">
+    		<h1>Textarea form</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<form action="envoye.html" method="post">
+				<div class="ui-field-contain">
+					<label for="name">Votre nom : </label>
+					<input type="text" name="name" id="name" value="">
+				</div>
+				<div class="ui-field-contain">
+					<label for="email">Votre email : </label>
+					<input type="text" name="email" id="email" value="">
+				</div>
+				<div class="ui-field-contain">
+					<label for="message">Votre message : </label>
+					<textarea name="message"></textarea>
+				</div>
+				<div class="ui-field-contain">
+					<input type="submit" name="submit" value="Envoyer">
+				</div>
+			</form>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<h4>Auteur : Christophe GUEROULT</h4>
+		</div>
+
+	</div>	
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulaire avec bouton radio et checkbox </title>
+	<meta name="description" content="Un formulaire jQuery Mobile avec boutons radio et ckeckbox. ">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body class="home">
+	
+	<div data-role="page">
+
+		<div data-role="header" data-position="fixed">
+    		<h1>Radio and checkbox form</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<form action="envoye.html" method="post">
+
+				<!-- simple select -->
+
+				<div class="ui-field-contain">
+					<label for="desert">Dessert préféré</label>
+
+					<select name="dessert" id="dessert">
+						<option value="Moelleux">Moelleux</option>
+						<option value="Fraisier">Fraisier</option>
+						<option value="Tiramisu">Tiramisu</option>
+					</select>
+				</div>
+
+				<!-- group selects -->
+
+				<fieldset data-role="controlgroup">
+					<legend>Votre menu</legend>
+
+					<label for="desert">Dessert préféré</label>
+					<select name="dessert" id="dessert">
+						<option value="Moelleux">Moelleux</option>
+						<option value="Fraisier">Fraisier</option>
+						<option value="Tiramisu">Tiramisu</option>
+					</select>
+
+					<label for="fruit">Fruit préféré</label>
+					<select name="fruit" id="fruit">
+						<option value="Fraise">Fraise</option>
+						<option value="Raisin">Raisin</option>
+						<option value="Pomme">Pomme</option>
+					</select>
+
+					<label for="drink">Boisson préférée</label>
+					<select name="drink" id="drink">
+						<option value="Vin">Vin</option>
+						<option value="Bierre">Bierre</option>
+						<option value="Eau">Eau</option>
+					</select>
+				</fieldset>
+
+				<!-- formgroup select horizontal -->
+
+				<!-- group selects -->
+
+				<fieldset data-role="controlgroup" data-type="horizontal">
+					<legend>Votre menu</legend>
+
+					<label for="desert">Dessert préféré</label>
+					<select name="dessert" id="dessert">
+						<option value="Moelleux">Moelleux</option>
+						<option value="Fraisier">Fraisier</option>
+						<option value="Tiramisu">Tiramisu</option>
+					</select>
+
+					<label for="fruit">Fruit préféré</label>
+					<select name="fruit" id="fruit">
+						<option value="Fraise">Fraise</option>
+						<option value="Raisin">Raisin</option>
+						<option value="Pomme">Pomme</option>
+					</select>
+
+					<label for="drink">Boisson préférée</label>
+					<select name="drink" id="drink">
+						<option value="Vin">Vin</option>
+						<option value="Bierre">Bierre</option>
+						<option value="Eau">Eau</option>
+					</select>
+				</fieldset>
+
+				<!-- width full jQuery Mobile Style -->
+
+				<div class="ui-field-contain">
+					<label for="desert">Dessert préféré</label>
+
+					<select name="dessert" id="dessert" data-native-menu="false">
+						<option value="Moelleux">Moelleux</option>
+						<option value="Fraisier">Fraisier</option>
+						<option value="Tiramisu">Tiramisu</option>
+					</select>
+				</div>
+				
+				<div class="ui-field-contain">
+					<input type="submit" name="submit" value="Envoyer">
+				</div>
+
+			</form>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<h4>Auteur : Christophe GUEROULT</h4>
+		</div>
+
+	</div>	
+</body>
+</html>

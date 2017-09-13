@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulaire avec bouton radio et checkbox </title>
+	<meta name="description" content="Un formulaire jQuery Mobile avec boutons radio et ckeckbox. ">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="images/logo-jquerym.jpg">
+	<meta name="apple-touch-startup-image" content="images/ajax-loader.gif">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body class="home">
+	
+	<div data-role="page">
+
+		<div data-role="header" data-position="fixed">
+    		<h1>Radio and checkbox form</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<form action="envoye.html" method="post">
+				<fieldset data-role="controlgroup">
+					<legend>Dessert préféré</legend>
+					<input type="radio" name="desert" id="desert1" value="Moelleux">
+					<label for="desert1">Moelleux</label>
+
+					<input type="radio" name="desert" id="desert2" value="Tiramisu">
+					<label for="desert2">Tiramisu</label>
+
+					<input type="radio" name="desert" id="desert3" value="Fraisier">
+					<label for="desert3">Fraisier</label>
+				</fieldset>
+				<fieldset data-role="controlgroup">
+					<legend>Fruits préférés</legend>
+					<input type="checkbox" name="fruits" id="fruit1" value="Raisin">
+					<label for="fruit1">Raisin</label>
+
+					<input type="checkbox" name="fruits" id="fruit2" value="Fraise">
+					<label for="fruit2">Fraise</label>
+
+					<input type="checkbox" name="fruits" id="fruit3" value="Abricot">
+					<label for="fruit3">Abricot</label>
+				</fieldset>
+
+				<fieldset data-role="controlgroup" data-type="horizontal">
+					<legend>Boisson préféré</legend>
+					<input type="radio" name="drink" id="drink1" value="Vin">
+					<label for="drink1">Vin</label>
+
+					<input type="radio" name="drink" id="drink2" value="Bierre">
+					<label for="drink2">Bierre</label>
+
+					<input type="radio" name="drink" id="drink3" value="Eau">
+					<label for="drink3">Eau</label>
+				</fieldset>
+				<fieldset data-role="controlgroup" data-type=horizontal>
+					<legend>Fromages préférés</legend>
+					<input type="checkbox" name="cheese" id="cheese1" value="Brie">
+					<label for="cheese1">Brie</label>
+
+					<input type="checkbox" name="cheese" id="cheese2" value="Cantal">
+					<label for="cheese2">Cantal</label>
+
+					<input type="checkbox" name="cheese" id="cheese3" value="Munster">
+					<label for="cheese3">Munster</label>
+				</fieldset>
+				<input type="submit" name="submit" value="Envoyer">
+			</form>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<h4>Auteur : Christophe GUEROULT</h4>
+		</div>
+
+	</div>	
+</body>
+</html>
